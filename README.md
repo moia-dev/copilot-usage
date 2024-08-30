@@ -1,6 +1,5 @@
 # Copilot Usage Report
 
-
 ## Getting Started
 
 1. [Create repository](https://github.com/new?template_name=copilot-usage-template&template_owner=austenstone&name=copilot-usage-report&description=Generates%20usage%20reports%20for%20GitHub%20Copilot)

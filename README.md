@@ -8,6 +8,8 @@
    - Secret: [Create PAT(Personal Access Token)](https://github.com/settings/tokens/new?scopes=admin:org&description=copilot-usage-report) (consider expiration date)
 3. [Run workflow](../../actions/workflows/copilot-usage.yml)
 
+https://github.com/user-attachments/assets/dbc8e799-7c9a-4a21-8eea-34fdcabbf2aa
+
 ## Viewing Report
 
 This will run every night and produce a report. View the reports [here](../../actions/workflows/copilot-usage.yml).

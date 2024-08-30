@@ -12,3 +12,10 @@
 ## Viewing Report
 
 This will run every night and produce a report. View the reports [here](../../actions/workflows/copilot-usage.yml).
+
+## Links
+
+* [Source repository](https://github.com/austenstone/copilot-usage)
+* [Report an issue](https://github.com/austenstone/copilot-usage/issues/new?template=Blank+issue)
+* [Options](https://github.com/austenstone/copilot-usage/blob/main/action.yml#L8-L52)
+* [REST API](https://docs.github.com/en/rest/copilot/copilot-usage)

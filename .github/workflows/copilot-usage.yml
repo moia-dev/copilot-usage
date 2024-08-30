@@ -16,11 +16,14 @@ jobs:
           # csv: true # Optional flag to output a CSV report
           # team: team-slug # Optional team slug to filter usage by
           # enterprise: enterprise-slug # Optional enterprise slug to filter usage by (defaults to current org)
-      - uses: austenstone/job-summary@v2.0
-        id: pdf
-        with:
-          name: copilot-usage
-      # # Uncomment the following block to send the PDF report as an email
+
+      # # Uncomment the following block to generate a PDF
+      # - uses: austenstone/job-summary@v2.0
+      #   id: pdf
+      #   with:
+      #     name: copilot-usage
+          
+      # # Uncomment the following block to send the PDF report (above) as an email
       # # See https://github.com/dawidd6/action-send-mail?tab=readme-ov-file#troubleshooting
       # - uses: dawidd6/action-send-mail@v4
       #   with:

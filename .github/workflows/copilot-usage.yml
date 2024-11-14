@@ -13,14 +13,9 @@ jobs:
         with:
           github-token: ${{ secrets.TOKEN }}
           time-zone: 'PST' # IANA time zone identifier https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
-          # csv: true # Optional flag to output a CSV report
+          csv: true # Optional flag to output a CSV report
           # team: team-slug # Optional team slug to filter usage by
           # enterprise: enterprise-slug # Optional enterprise slug to filter usage by (defaults to current org)
-      
-      - uses: austenstone/copilot-usage@v4.2
-        with:
-          github-token: ${{ secrets.TOKEN }}
-          csv: true
 
       # # Uncomment the following block to generate a PDF
       # - uses: austenstone/job-summary@v2.0
